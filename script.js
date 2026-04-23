@@ -40,7 +40,8 @@ const translations = {
         download_subtitle: '免费下载，解压即用。支持 Windows 10 / 11。',
         alret_dl_desc: 'AlreTerminal Special Edition',
         alredoc_dl_desc: 'Win95 风格文件管理器',
-        download_hint: '⚡ 下载链接会跳转到蓝奏云，点击按钮后即可直接下载（密码已自动填充）。<br>如遇跳转问题，请手动输入上方显示的密码。',
+        installer_note: '约 8 MB · 一键安装',
+        download_thanks: '❤️ 感谢您使用与信任我们！',
         footer_rights: '保留所有权利。',
         footer_tagline: '用 Python 构建 · 为效率而生'
     },
@@ -84,7 +85,8 @@ const translations = {
         download_subtitle: 'Free download, unzip and run. Supports Windows 10 / 11.',
         alret_dl_desc: 'AlreTerminal Special Edition',
         alredoc_dl_desc: 'Win95 Style File Manager',
-        download_hint: '⚡ Download links will redirect to LanzouYun. Click the button to download directly (password auto-filled).<br>If the redirect fails, please manually enter the password shown above.',
+        installer_note: '~8 MB · One-click install',
+        download_thanks: '❤️ Thank you for using and trusting us!',
         footer_rights: 'All rights reserved.',
         footer_tagline: 'Built with Python · Made for Efficiency'
     },
@@ -128,7 +130,8 @@ const translations = {
         download_subtitle: '免費下載，解壓即用。支援 Windows 10 / 11。',
         alret_dl_desc: 'AlreTerminal 特別版',
         alredoc_dl_desc: 'Win95 風格檔案總管',
-        download_hint: '⚡ 下載連結會跳轉到藍奏雲，點擊按鈕後即可直接下載（密碼已自動填入）。<br>如遇跳轉問題，請手動輸入上方顯示的密碼。',
+        installer_note: '約 8 MB · 一鍵安裝',
+        download_thanks: '❤️ 感謝您使用與信任我們！',
         footer_rights: '保留所有權利。',
         footer_tagline: '用 Python 建構 · 為效率而生'
     }
@@ -215,22 +218,9 @@ function initNavbarScroll() {
     });
 }
 
-// 下载按钮提醒（替换为实际链接后可删除）
-function initDownloadButtons() {
-    document.querySelectorAll('.btn-download').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            if (btn.getAttribute('href') === '#') {
-                e.preventDefault();
-                alert('请将下载链接替换为实际文件地址。');
-            }
-        });
-    });
-}
-
 // 启动所有初始化
 document.addEventListener('DOMContentLoaded', () => {
     initLanguageSwitcher();
     initSmoothScroll();
     initNavbarScroll();
-    initDownloadButtons();
 });
