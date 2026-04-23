@@ -41,7 +41,8 @@ const translations = {
         alret_dl_desc: 'AlreTerminal Special Edition',
         alredoc_dl_desc: 'Win95 风格文件管理器',
         installer_note: '约 8 MB · 一键安装',
-        download_thanks: '❤️ 感谢您使用与信任我们！',
+        download_hint: '⚡ 若 Windows 提示“已保护你的电脑”或“阻止了无法识别的应用”，请放心：<br><strong>1. 本文件为 .zip 压缩包，解压后即可正常使用，无安全风险。</strong><br><strong>2. 或点击 SmartScreen 弹窗中的“更多信息”，选择“仍要运行”。</strong><br><span style="color: #00c6ff;">本软件 100% 安全，仅因未购买微软数字签名被误报。</span><br>❤️ 感谢您使用与信任我们！',
+        download_thanks: '',
         footer_rights: '保留所有权利。',
         footer_tagline: '用 Python 构建 · 为效率而生'
     },
@@ -86,7 +87,8 @@ const translations = {
         alret_dl_desc: 'AlreTerminal Special Edition',
         alredoc_dl_desc: 'Win95 Style File Manager',
         installer_note: '~8 MB · One-click install',
-        download_thanks: '❤️ Thank you for using and trusting us!',
+        download_hint: '⚡ If Windows says "protected your PC" or "unrecognized app", rest assured:<br><strong>1. This .zip file is safe; just extract and run, no security risk.</strong><br><strong>2. Or click "More info" in the SmartScreen popup, then "Run anyway".</strong><br><span style="color: #00c6ff;">This software is 100% safe, flagged only due to lacking a Microsoft digital signature.</span><br>❤️ Thank you for your trust!',
+        download_thanks: '',
         footer_rights: 'All rights reserved.',
         footer_tagline: 'Built with Python · Made for Efficiency'
     },
@@ -131,7 +133,8 @@ const translations = {
         alret_dl_desc: 'AlreTerminal 特別版',
         alredoc_dl_desc: 'Win95 風格檔案總管',
         installer_note: '約 8 MB · 一鍵安裝',
-        download_thanks: '❤️ 感謝您使用與信任我們！',
+        download_hint: '⚡ 若 Windows 提示「已保護您的電腦」或「無法辨識的應用程式」，請放心：<br><strong>1. 本 .zip 壓縮檔安全無虞，解壓縮後即可正常使用。</strong><br><strong>2. 或點選 SmartScreen 彈窗中的「更多資訊」，選擇「仍要執行」。</strong><br><span style="color: #00c6ff;">本軟體 100% 安全，僅因未購買微軟數位簽章而被誤報。</span><br>❤️ 感謝您使用與信任我們！',
+        download_thanks: '',
         footer_rights: '保留所有權利。',
         footer_tagline: '用 Python 建構 · 為效率而生'
     }
